@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery — Flora</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ PAGE BANNER ============ -->
+<section class="page-banner" id="top">
+  <img class="page-banner-bg" src="https://images.unsplash.com/photo-1561181286-d3fee7d55364?w=1600&q=80" alt="Floral centerpiece display">
+  <div class="hero-overlay"></div>
+
+  <header class="site-nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">FLORA</a>
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html" class="is-current">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="page-banner-content">
+    <h1>Gallery</h1>
+  </div>
+</section>
+
+<!-- ============ FILTERS ============ -->
+<section class="gallery-page">
+  <p class="eyebrow eyebrow-center">A look at our work</p>
+
+  <div class="filter-row" id="filterRow">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="weddings">Weddings</button>
+    <button class="filter-btn" data-filter="events">Events</button>
+    <button class="filter-btn" data-filter="bouquets">Bouquets</button>
+  </div>
+
+  <div class="masonry-grid" id="masonryGrid">
+    <div class="masonry-item tall" data-category="weddings">
+      <img src="https://images.unsplash.com/photo-1509927083803-4bd519298ac4?w=600&q=80" alt="Bridal bouquet of white and pink flowers">
+    </div>
+    <div class="masonry-item" data-category="bouquets">
+      <img src="https://images.unsplash.com/photo-1526047932273-341f2a7631f9?w=600&q=80" alt="Floral arrangement in glass vases">
+    </div>
+    <div class="masonry-item" data-category="events">
+      <img src="https://images.unsplash.com/photo-1561181286-d3fee7d55364?w=600&q=80" alt="Event centerpiece with candles and flowers">
+    </div>
+    <div class="masonry-item tall" data-category="weddings">
+      <img src="https://images.unsplash.com/photo-1465146633011-14f8e0781093?w=600&q=80" alt="Wedding arch decorated with flowers">
+    </div>
+    <div class="masonry-item" data-category="bouquets">
+      <img src="https://images.unsplash.com/photo-1523694576729-3643a4c78235?w=600&q=80" alt="Seasonal hand-tied bouquet">
+    </div>
+    <div class="masonry-item" data-category="events">
+      <img src="https://images.unsplash.com/photo-1520763185298-1b434c919102?w=600&q=80" alt="Corporate reception floral display">
+    </div>
+    <div class="masonry-item tall" data-category="bouquets">
+      <img src="https://images.unsplash.com/photo-1518895312237-a9e23508077d?w=600&q=80" alt="Flower subscription box arrangement">
+    </div>
+    <div class="masonry-item" data-category="weddings">
+      <img src="https://images.unsplash.com/photo-1487530811176-3780de880c2d?w=600&q=80" alt="Florist arranging bridal flowers">
+    </div>
+    <div class="masonry-item" data-category="events">
+      <img src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=600&q=80" alt="Warm toned wildflower display">
+    </div>
+  </div>
+</section>
+
+<!-- ============ MINI CTA ============ -->
+<section class="mini-cta">
+  <h2>Like what you see?</h2>
+  <a href="contact.html" class="btn btn-secondary">Book a Call</a>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="footer-bottom">
+    <p>© 2026 Flora Floral Design Studio</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

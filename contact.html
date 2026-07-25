@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Flora</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ PAGE BANNER ============ -->
+<section class="page-banner" id="top">
+  <img class="page-banner-bg" src="https://images.unsplash.com/photo-1518895312237-a9e23508077d?w=1600&q=80" alt="Fresh flowers ready for delivery">
+  <div class="hero-overlay"></div>
+
+  <header class="site-nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">FLORA</a>
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html" class="is-current">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="page-banner-content">
+    <h1>Get in touch</h1>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="contact-page">
+  <div class="contact-info">
+    <p class="eyebrow">Let's create something beautiful</p>
+    <h2>We'd love to hear<br>about your event</h2>
+    <p class="contact-detail">📍 214 Maple Street, Portland, OR</p>
+    <p class="contact-detail">✉️ hello@florastudio.com</p>
+    <p class="contact-detail">📞 (503) 555-0148</p>
+    <p class="contact-hours">Tue–Sat, 9am–5pm</p>
+  </div>
+
+  <form class="contact-form" id="contactForm">
+    <input type="text" name="name" placeholder="Name" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <input type="text" name="event" placeholder="Event date (if applicable)">
+    <textarea name="message" placeholder="Tell us about your event" rows="4" required></textarea>
+    <button type="submit" class="btn btn-primary">Send message</button>
+    <p class="form-note" id="formNote" aria-live="polite"></p>
+  </form>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="footer-bottom">
+    <p>© 2026 Flora Floral Design Studio</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
